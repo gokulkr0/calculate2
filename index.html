@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./calculator.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <h1><center>Calculator</center></h1>
+    <div class="d1" >
+        <input type="text" id="cal1" name="cname" placeholder="0">
+        <label for="cname"></label>
+    
+            <button class="v" onclick="displayData(1)">1</button>
+            <button  onclick="displayData(2)">2</button>
+            <button  onclick="displayData(3)">3</button>
+            <button  onclick="displayData(4)">4</button>
+            <button  onclick="displayData(5)">5</button>
+            <button  onclick="displayData(6)">6</button>
+            <button  onclick="displayData(7)">7</button>
+            <button  onclick="displayData(8)">8</button>
+            <button onclick="displayData(9)">9</button>
+            <button onclick="displayData(0)">0</button>
+            <button  onclick="displayData('+')">+</button>
+            <button  onclick="displayData('*')">*</button>
+            <button  onclick="displayData('/')">/</button>
+            <button  onclick="displayData('%')">%</button>
+            <button  onclick="displayData('.')">.</button>
+            <button class="b2" onclick="findOut()">=</button>
+            <button  onclick="backSpace()"><i class="material-icons" style="font-size:17px;color:rgb(1, 60, 136);">backspace</i></i></button>
+            <button class="c" onclick="allClear()">Ac</button>
+    </div>
+    
+</body>
+<script src="calculator.js"></script>
+</html>
